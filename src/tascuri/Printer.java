@@ -19,6 +19,12 @@ public class Printer {
                 "•\tCreează o clasă abstractă FormaGeometrica care implementează Forma și " +
                 "definește o metodă descriere() care returnează o descriere a formei.\n" +
                 "•\tCreează clasele Cerc și Patrat care moștenesc FormaGeometrica și " +
-                "implementează metodele calculPerimetru() și calculAria().\n");
+                "implementează metodele calculPerimetru() și calculAria().\n" +
+                "Exercițiul 3: Ierarhie de animale\n" +
+                "Creează o ierarhie de animale:\n" +
+                "•\tCreează o interfață Animal care definește metodele faceSunet() și doarme().\n" +
+                "•\tCreează o clasă abstractă Mammifer care implementează interfața Animal și conține o metodă concretă alaptare().\n" +
+                "•\tCreează clasele Caine și Pisica care moștenesc Mammifer și implementează metoda faceSunet().\n" +
+                "•\tÎn metoda main, creează obiecte de tipul Caine și Pisica și apelează metodele lor.\n");
     }
 }
