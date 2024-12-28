@@ -25,6 +25,12 @@ public class Printer {
                 "•\tCreează o interfață Animal care definește metodele faceSunet() și doarme().\n" +
                 "•\tCreează o clasă abstractă Mammifer care implementează interfața Animal și conține o metodă concretă alaptare().\n" +
                 "•\tCreează clasele Caine și Pisica care moștenesc Mammifer și implementează metoda faceSunet().\n" +
-                "•\tÎn metoda main, creează obiecte de tipul Caine și Pisica și apelează metodele lor.\n");
+                "•\tÎn metoda main, creează obiecte de tipul Caine și Pisica și apelează metodele lor.\n" +
+                "Exercițiul 4: Dispozitive electronice\n" +
+                "Creează o aplicație care modelează dispozitive electronice:\n" +
+                "•\tCreează o interfață Dispozitiv care conține metodele pornire() și oprire().\n" +
+                "•\tCreează o clasă abstractă DispozitivMobil care implementează interfața Dispozitiv și conține o metodă concretă setStatus().\n" +
+                "•\tCreează clasele Telefon și Tableta care moștenesc DispozitivMobil și implementează metoda pornire().\n" +
+                "•\tÎn metoda main, creează obiecte de tipul Telefon și Tableta, pornește-le și oprește-le\n");
     }
 }
