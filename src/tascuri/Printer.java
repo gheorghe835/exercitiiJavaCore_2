@@ -31,6 +31,23 @@ public class Printer {
                 "•\tCreează o interfață Dispozitiv care conține metodele pornire() și oprire().\n" +
                 "•\tCreează o clasă abstractă DispozitivMobil care implementează interfața Dispozitiv și conține o metodă concretă setStatus().\n" +
                 "•\tCreează clasele Telefon și Tableta care moștenesc DispozitivMobil și implementează metoda pornire().\n" +
-                "•\tÎn metoda main, creează obiecte de tipul Telefon și Tableta, pornește-le și oprește-le\n");
+                "•\tÎn metoda main, creează obiecte de tipul Telefon și Tableta, pornește-le și oprește-le\n" +
+                "Exercițiul 5: Concatenare de stringuri\n" +
+                "Creează un program care folosește StringBuilder pentru a concatena o listă de cuvinte (de exemplu, \"Bună\", \"ziua\", \"lume!\").\n" +
+                "•\tFolosește un ciclu pentru a adăuga fiecare cuvânt la StringBuilder.\n" +
+                "•\tAfișează rezultatul concatenării.\n" +
+                "Exercițiul 6: Verificarea unui palindrom\n" +
+                "Creează un program care verifică dacă un cuvânt este palindrom (adică, se citește la fel și de la stânga la dreapta și invers).\n" +
+                "•\tFolosește StringBuffer pentru a crea reversul unui cuvânt.\n" +
+                "•\tCompară cuvântul original cu reversul și afișează un mesaj corespunzător.\n" +
+                "Exercițiul 7: Modificarea unui text\n" +
+                "Creează un program care folosește String pentru a înlocui toate aparițiile unui cuvânt într-o propoziție.\n" +
+                "•\tExemplu: înlocuiește cuvântul \"lume\" cu \"univers\".\n" +
+                "•\tAfișează propoziția modificată.\n" +
+                "Exercițiul 8: Inserare și ștergere de caractere\n" +
+                "Creează un program care folosește StringBuilder pentru a insera și șterge caractere într-un șir de caractere:\n" +
+                "•\tAdaugă un caracter la începutul șirului.\n" +
+                "•\tȘterge un caracter din mijlocul șirului.\n" +
+                "•\tAfișează rezultatul final.\n");
     }
 }
